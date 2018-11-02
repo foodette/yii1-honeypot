@@ -1,6 +1,6 @@
 Yii 1.1 HoneyPot / IP Checker
 =============================
-[![License](https://poser.pugx.org/foodette/yii1-honeypot/license)](https://packagist.org/packages/foodette/yii1-dotenv)
+[![License](https://poser.pugx.org/foodette/yii1-honeypot/license)](https://packagist.org/packages/foodette/yii1-honeypot)
 
 HoneyPot extension for Yii 1.1 Framework.
 
@@ -54,6 +54,6 @@ $httpBL->check('1.2.3.4');
         'lastActivity'  => 12 // number of days since last activity 
         'threatScore'   => 39 // threat score on a 0-100 scale
         'type'          => 1  // visitor type bit, e.g. Suspicious|Harvester|Comment spam
-    ]
+    ] when IP is known to have suspicious activity
 
 See [the Project Honey Pot API](https://www.projecthoneypot.org/httpbl_api.php) for more information.
