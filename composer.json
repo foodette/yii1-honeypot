@@ -1,7 +1,7 @@
 {
     "name": "foodette/yii1-honeypot",
     "type": "library",
-    "description": "Yii 1 phpdotenv extension",
+    "description": "Yii 1 honeypot / IP checker extension",
     "keywords": ["php", "honeypot", "yii"],
     "license": "MIT",
     "authors": [
